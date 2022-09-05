@@ -9,6 +9,10 @@
         font-family: 'Poppins', sans-serif;
     }
 
+    body{
+        min-height: 640px;
+    }
+
     .top-nav{
         display: flex;
         justify-content: space-between;
@@ -126,12 +130,11 @@
     }
 
     .bottom-nav{
-        /* width: 100vw; */
-        /* height: 59px; */
+        position: sticky;
+        bottom: 0;
+        width: 100%;
         padding: 1.25rem;
         background-color: #000;
-        position: sticky;
-        bottom: 0px;
         color: #fff;
         font-size: 0.75rem;
         display: flex;
