@@ -1,0 +1,139 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .top-nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 2.19rem 1.81rem 1.5rem 1.81rem;
+        /* outline: 2px solid black; */
+    }
+
+    .top-nav h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        /* outline: 2px solid black; */
+    }
+
+    .top-nav .user{
+        display: flex;
+        align-items: center;
+        /* outline: 2px solid black; */
+    }
+
+    .content{
+        /* width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .container{
+        width: 13.5rem;
+        position: relative;
+        /* outline: 2px solid black; */
+    }
+
+    .content .container .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content .container .text h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .content .container .text p{
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    .content .pay{
+        margin: 1.94rem;
+        width: 16rem;
+        height: 5rem;
+        background-color: #FEB71E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.19rem;
+    }
+
+    .content .pay h1{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .content .pay p{
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    .content .th{
+        margin-bottom: 1.94rem;
+        width: 16rem;
+        height: auto;
+        background-color: #F5F5F5;
+        border-radius: 0.19rem;
+        padding: 1.44rem 1.13rem;
+    }
+
+    .content .th h1{
+        font-weight: 600;
+        font-size: 0.94rem;
+        margin-bottom: 0.94rem;
+    }
+
+    .content .th .payment{
+        display: flex;
+        align-items: center;
+        margin-top: 11px;
+        /* justify-content: space-evenly; */
+        /* outline: 2px solid black; */
+    }
+
+    .content .th .payment h2{
+        font-size: 0.94rem;
+        font-weight: 600;
+        color: #19CC95;
+        margin: 0 2.19rem 0 0.25rem;
+        /* outline: 2px solid black; */
+    }
+
+    .content .th .payment p{
+        font-size: 0.63rem;
+        font-weight: 300;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        /* outline: 2px solid black; */
+    }
+
+    .bottom-nav{
+        /* width: 100vw; */
+        height: 59px;
+        background-color: #000;
+        position: sticky;
+        bottom: 0;
+        color: #fff;
+        font-size: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
