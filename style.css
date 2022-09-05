@@ -127,10 +127,11 @@
 
     .bottom-nav{
         /* width: 100vw; */
-        height: 59px;
+        /* height: 59px; */
+        padding: 1.25rem;
         background-color: #000;
         position: sticky;
-        bottom: 0;
+        bottom: 0px;
         color: #fff;
         font-size: 0.75rem;
         display: flex;
